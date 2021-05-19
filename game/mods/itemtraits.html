@@ -1,0 +1,351 @@
+<!--
+title: EpicLoot: Item traits
+description: A description of all item traits
+published: true
+date: 2021-05-16T22:31:11.896Z
+tags: epicloot, mods
+editor: ckeditor
+dateCreated: 2021-05-16T15:44:30.754Z
+-->
+
+<p>As of version 0.7.8 of EpicLoot there have been a number of changed item traits and also new ones. Some of them are very specialised and others have a more general bonus. In order to understand and judge the “value” of a trait you can find a full list of them here. They are taken from the translations.json file from the EpicLoot plugin folder.</p>
+<p>Some of the specific traits depend on the player being at <mark class="pen-red">“critical health”</mark>, meaning it will only trigger if the player's current health drops below 30%. To compensate, such bonuses are bigger than the regular ones.</p>
+<p>&nbsp;</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>Air Jump</td>
+        <td>While in the air, the player may jump an additional time.</td>
+      </tr>
+      <tr>
+        <td>All Damage +x%</td>
+        <td>Increase the total damage done by the magic weapon.</td>
+      </tr>
+      <tr>
+        <td>Armor +x%</td>
+        <td>Increase the armor value of the magic equipment.</td>
+      </tr>
+      <tr>
+        <td>Attack Speed +x%</td>
+        <td>Attacks made with the magic weapon are faster.</td>
+      </tr>
+      <tr>
+        <td>Attack Stamina Drain -x%</td>
+        <td>Reduce the player's attack stamina usage.</td>
+      </tr>
+      <tr>
+        <td>Axes Skill +x</td>
+        <td>Increases the player's axes skill level. This may cause the skill level to increase above 100.</td>
+      </tr>
+      <tr>
+        <td>Backstab +x%</td>
+        <td>Increase the backstab multiplier of the magic weapon.</td>
+      </tr>
+      <tr>
+        <td>Block +x%</td>
+        <td>Increase the block power of the magic item.</td>
+      </tr>
+      <tr>
+        <td>Blocking Skill +x</td>
+        <td>Increases the player's blocking skill level. This may cause the skill level to increase above 100.</td>
+      </tr>
+      <tr>
+        <td>Block Stamina Drain -x%</td>
+        <td>Reduce the player's block stamina usage.</td>
+      </tr>
+      <tr>
+        <td>Bows Skill +x</td>
+        <td>Increases the player's bows skill level. This may cause the skill level to increase above 100.</td>
+      </tr>
+      <tr>
+        <td>Blunt Damage +x</td>
+        <td>Add x blunt damage to attacks made by the magic weapon.</td>
+      </tr>
+      <tr>
+        <td>Blunt Damage Reduction +x%</td>
+        <td>The player reduces all blunt damage taken.</td>
+      </tr>
+      <tr>
+        <td>Carry Weight +x</td>
+        <td>Increase the player's maximum carry weight capacity.</td>
+      </tr>
+      <tr>
+        <td>Clubs Skill +x</td>
+        <td>Increases the player's clubs skill level. This may cause the skill level to increase above 100.</td>
+      </tr>
+      <tr>
+        <td>Comfort +x</td>
+        <td>When resting and wearing the magic equipment, the player's comfort level is increased.</td>
+      </tr>
+      <tr>
+        <td>Discovery Radius +x%</td>
+        <td>The player's map discovery radius is increased.</td>
+      </tr>
+      <tr>
+        <td>Duelist +x%</td>
+        <td>When using the magic weapon without anything in the player's off hand, its block power and parry force are increased.</td>
+      </tr>
+      <tr>
+        <td>Durability +x%</td>
+        <td>Increase the maximum durability of the magic item</td>
+      </tr>
+      <tr>
+        <td>Elemental Damage +x%</td>
+        <td>Increase the elemental damage (fire, frost, lightning, poison, spirit) done by the magic weapon.</td>
+      </tr>
+      <tr>
+        <td>Executioner +x%</td>
+        <td>The first attack on an enemy that is below 20% health deals more damage.</td>
+      </tr>
+      <tr>
+        <td>Explosive Shots</td>
+        <td>Ranged attacks made by the magic weapon deal damage in an area of effect around the projectile impact.</td>
+      </tr>
+      <tr>
+        <td>Feather Fall</td>
+        <td>The player falls slowly and is immune to fall damage.</td>
+      </tr>
+      <tr>
+        <td>Feint +x%</td>
+        <td>The player has a chance to automatically avoid all damage from an attack.</td>
+      </tr>
+      <tr>
+        <td>Fire Damage +x</td>
+        <td>Add x fire damage to attacks made by the magic weapon. Will also trigger the “burning” state.</td>
+      </tr>
+      <tr>
+        <td>Fire Damage Reduction +x%</td>
+        <td>The player reduces all fire damage taken. Can be stacked multiple times.</td>
+      </tr>
+      <tr>
+        <td>Free Build</td>
+        <td>When using the magic hammer, buildings can be built without the required crafting station nearby.</td>
+      </tr>
+      <tr>
+        <td>Frost Damage +x</td>
+        <td>Add x frost damage to attacks made by the magic weapon. Will also trigger the “frost effect”.</td>
+      </tr>
+      <tr>
+        <td>Frost Damage Reduction +x%</td>
+        <td>The player reduces all frost damage taken. Will NOT protect against the “freezing” state.</td>
+      </tr>
+      <tr>
+        <td>Glowing</td>
+        <td>The player glows with a faint light.</td>
+      </tr>
+      <tr>
+        <td>Health +xx</td>
+        <td>Increase the player's base maximum health</td>
+      </tr>
+      <tr>
+        <td>Health Regen +x%</td>
+        <td>Increase the player's health regeneration</td>
+      </tr>
+      <tr>
+        <td>Immovable</td>
+        <td>The player is immune to knockback and stagger while blocking with the magic shield.</td>
+      </tr>
+      <tr>
+        <td>Indestructible</td>
+        <td>The magic item does not use durability and will never break.</td>
+      </tr>
+      <tr>
+        <td>Jump Stamina Drain -x%</td>
+        <td>Reduce the player's jump stamina usage.</td>
+      </tr>
+      <tr>
+        <td>Knives Skill +x</td>
+        <td>Increases the player's knives skill level. This may cause the skill level to increase above 100.</td>
+      </tr>
+      <tr>
+        <td>Lifesteal +x%</td>
+        <td>The player heals for a portion of total damage done with each attack.</td>
+      </tr>
+      <tr>
+        <td>Lightning Damage +x</td>
+        <td>Add x lightning damage to attacks made by the magic weapon.</td>
+      </tr>
+      <tr>
+        <td>Lightning Damage Reduction +x%</td>
+        <td>The player reduces all lightning damage taken.</td>
+      </tr>
+      <tr>
+        <td>Luck +x</td>
+        <td>Increase the chance to find higher rarity magic items.</td>
+      </tr>
+      <tr>
+        <td>Move Speed +x%</td>
+        <td>Increase the player's movement speed.</td>
+      </tr>
+      <tr>
+        <td>Movement Skills +x</td>
+        <td>Increases the player's run, jump, swim, and sneak skill levels. This may cause the skill level to increase above 100.</td>
+      </tr>
+      <tr>
+        <td>No Movement Speed Penalty</td>
+        <td>Wearing or wielding this magic item does not penalize the player's movement speed.</td>
+      </tr>
+      <tr>
+        <td>Opportunist +x%</td>
+        <td>Attacks made against staggered enemies have a chance to deal backstab damage.</td>
+      </tr>
+      <tr>
+        <td>Paralyze for x seconds</td>
+        <td>Enemies hit with attacks made by the magic weapon will be paralyzed, unable to move or attack.</td>
+      </tr>
+      <tr>
+        <td>Parry +x%</td>
+        <td>Increase the parry block power, parry force, and parry bonus of the magic item.</td>
+      </tr>
+      <tr>
+        <td>Physical Damage +x%</td>
+        <td>Increase the physical damage (blunt, slash, pierce, chop, pickaxe) done by the magic weapon.</td>
+      </tr>
+      <tr>
+        <td>Physical Damage Reduction +x%</td>
+        <td>The player reduces all physical damage taken.</td>
+      </tr>
+      <tr>
+        <td>Pickaxes Skill +x</td>
+        <td>Increases the player's pickaxes skill level. This may cause the skill level to increase above 100.</td>
+      </tr>
+      <tr>
+        <td>Pierce Damage +x</td>
+        <td>Add x pierce damage to attacks made by the magic weapon.</td>
+      </tr>
+      <tr>
+        <td>Pierce Damage Reduction +x%</td>
+        <td>The player reduces all pierce damage taken.</td>
+      </tr>
+      <tr>
+        <td>Poison Damage +x</td>
+        <td>Add x poison damage to attacks made by the magic weapon. Will also trigger the “poisoned" state.</td>
+      </tr>
+      <tr>
+        <td>Poison Damage Reduction +x%</td>
+        <td>The player reduces all poison damage taken.</td>
+      </tr>
+      <tr>
+        <td>Polearms Skill +x</td>
+        <td>Increases the player's polearms skill level. This may cause the skill level to increase above 100.</td>
+      </tr>
+      <tr>
+        <td>Quick Draw +x%</td>
+        <td>Increases the draw speed of the magic weapon.</td>
+      </tr>
+      <tr>
+        <td>Quick Learner +x%</td>
+        <td>All skills improve significantly faster.</td>
+      </tr>
+      <tr>
+        <td>Recalling</td>
+        <td>The thrown magic weapon automatically returns to the player after being thrown.</td>
+      </tr>
+      <tr>
+        <td>Riches +x%</td>
+        <td>Slain enemies have an increased chance to drop coins or treasure.</td>
+      </tr>
+      <tr>
+        <td>Slash Damage +x</td>
+        <td>Add x slash damage to attacks made by the magic weapon.</td>
+      </tr>
+      <tr>
+        <td>Slash Damage Reduction +x%&nbsp;</td>
+        <td>The player reduces all slash damage taken.</td>
+      </tr>
+      <tr>
+        <td>Spears Skill +x</td>
+        <td>Increases the player's spears skill level. This may cause the skill level to increase above 100.</td>
+      </tr>
+      <tr>
+        <td>Spirit Damage +x</td>
+        <td>Add x spirit damage to attacks made by the magic weapon. Will NOT trigger the spirit damage DoT.</td>
+      </tr>
+      <tr>
+        <td>Spirit Damage Reduction +x%</td>
+        <td>The player reduces all spirit damage taken. Pretty useless, because players can't take spirit damage.</td>
+      </tr>
+      <tr>
+        <td>Sprint Stamina Drain -x%</td>
+        <td>Reduce the player's sprint stamina usage.</td>
+      </tr>
+      <tr>
+        <td>Stagger Chance +x%</td>
+        <td>Increase the chance to stagger the enemy for attacks made with the magic weapon.</td>
+      </tr>
+      <tr>
+        <td>Stagger Damage +x%</td>
+        <td>Increase damage to staggered enemies.</td>
+      </tr>
+      <tr>
+        <td>Stagger Duration +x%</td>
+        <td>Increase the stagger duration against enemies when staggered by attacks from the magic weapon.</td>
+      </tr>
+      <tr>
+        <td>Stamina +xx</td>
+        <td>Increase the player's base maximum stamina.</td>
+      </tr>
+      <tr>
+        <td>Stamina Regen +x%</td>
+        <td>Increase the player's stamina regeneration.</td>
+      </tr>
+      <tr>
+        <td>Sword Skill +x</td>
+        <td>Increases the player's swords skill level. This may cause the skill level to increase above 100.</td>
+      </tr>
+      <tr>
+        <td>Thorns +x%</td>
+        <td>Reflect some damage back to attacker. The number is calculated from the attacker's base damage.</td>
+      </tr>
+      <tr>
+        <td>Throwable</td>
+        <td>The player may use the secondary attack to throw the magic weapon.</td>
+      </tr>
+      <tr>
+        <td>Unarmed Skill +x</td>
+        <td>Increases the player's unarmed skill level. This may cause the skill level to increase above 100.</td>
+      </tr>
+      <tr>
+        <td>Waterproof</td>
+        <td>While wearing the magical equipment, the player will not get wet in the rain. Immersion in water will still make the player wet.</td>
+      </tr>
+      <tr>
+        <td>Water Walking</td>
+        <td>While equipped with the magic equipment, the player may walk on the surface of any body of water.</td>
+      </tr>
+      <tr>
+        <td>Weight -x%</td>
+        <td>Reduce the weight of the magic item.</td>
+      </tr>
+      <tr>
+        <td>Weightless</td>
+        <td>The magic item has a weight of 0.</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
